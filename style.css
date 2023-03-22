@@ -1,0 +1,68 @@
+body{
+    background-image: linear-gradient(to right, #a96e9c , #9481af, #8292c3,#7797c8);
+    
+}
+.link{
+    text-decoration: none;
+    color: #eaebed;
+    cursor: pointer;
+}
+#corpo{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+#body-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px  solid #2e2f33;
+    border-radius: 10px;
+    background: #2e2f33;
+    width: 450px;
+    height: 500px;
+    /* padding: 300px;
+    margin: 50px; */
+
+}
+#User{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    width: 274px;
+    height: 26px;
+    gap: 5px;
+    display: flex;
+}
+.stay-button{
+    color:#b9babc ;
+}
+
+#sing-in  {
+    border: none;
+ 
+}
+.sing-label {
+    color: #eaebed;
+}
+.Sing-form{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 18px;
+    width: 282px;
+    height: 50px;
+    background: #2fbd59;
+    border: #2fbd59; 
+}
+#User{
+    
+}
+
+/* 
+colors:
+
+COLOR-LETRAS: #b9babc/ #eaebed
+COLOR- BACKGROUND1:
+spotify-cor:#2fbd59
+
+*/
