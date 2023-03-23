@@ -13,15 +13,23 @@
        <div id="body-form">
         <div id="logo">
 
-            <img src="assets/png/spotify-logo.png" alt="" width="150px"  class="logo-form">
+            <img src="assets/png/spotify.png" alt="" width="140px"  class="logo-form">
      
             </div>
 
            <div id="sing-line">
-            <span id="screen-in" onclick="opção1();" > SING IN <span class="line1"></span> </span>
+            <div class="line1-div">
+                <span id="screen-in" onclick="opção1();" > SIGN IN  </span>
+                <span class="line1"></span>
+            </div>
 
-            <a href="/aa" class="link"><span id="screen-up"> SING UP <span class="line2"></span></span></a>
-           </div>
+            <div class="line2-div">
+
+                <a href="/aa" class="link"><span id="screen-up"> SIGN UP</span></a>
+                  <span class="line2"></span>
+                           </div> 
+                         
+            </div>
 
           <div class="Segn-in">
             <form class="form-sing">
@@ -31,15 +39,17 @@
 
                     <div id="stay-button-div">
                         <input type="checkbox" id="stay-button" name="stay-button" value="stay-button">
-                        <label for="stay-button" class="label-stay-button"> Stay sing in</label> <br>
+                        <label for="stay-button" class="label-stay-button"> stay signed in</label> <br>
                     </div>
                    
 
             
-                   <button class="Sing-form">
-                         <input type="button" id="sing-in" onclick="logar(); return false" > 
-                         <label for="sing-in" class="sing-label"  onclick="logar(); return false">SING IN</label>
-                   </button>
+                   <div id="button-sing">
+                       <button id="Sing-button" onclick="logar(); return false">
+                             <input type="submit" class="sing-in"  >
+                             <label for="sing-in" id="sing-label"  >SIGN IN</label>
+                       </button>
+                   </div>
 
                 <div id="forgot-password">
                     <a href="/" class="link"> <p class="forgot-word"> Forgot Password?</p></a>
